@@ -3,14 +3,29 @@ import selenium
 
 import cv2
 
-print("Hello world")
-# added comment
-cap = cv2.imread("img.jpg")
+def sum(a,b):
+    """[summary]
 
-cap = cv2.resize(cap, (1200, 720))
-cv2.circle(cap, (20, 20), 20, (255, 0, 255), 3)
+    Args:
+        a ([int]): [a]
+        b ([int]): [b]
 
-cv2.imshow("Image", cap)
-cv2.waitKey()
+    Returns:
+        [int]: [sum of a and b]
+    """
+    return a+b
+def main():
+    print("Hello world")
+    # added comment
+    cap = cv2.imread("img.jpg")
 
-print("Hello WOrld")
+    cap = cv2.resize(cap, (1200, 720))
+    cv2.circle(cap, (20, 20), 20, (255, 0, 255), 3)
+
+    cv2.imshow("Image", cap)
+    cv2.waitKey()
+
+    print("Hello WOrld")
+
+if __name__ == "__main__":
+    main()
