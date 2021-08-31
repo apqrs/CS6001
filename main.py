@@ -14,6 +14,18 @@ def sum(a,b):
         [int]: [sum of a and b]
     """
     return a+b
+
+def fun(a:int, b:str):
+    """[summary]
+
+    Args:
+        a (int): [description]
+        b (str): [description]
+
+    Returns:
+        [type]: [description]
+    """
+    return a*3
 def main():
     print("Hello world")
     # added comment
